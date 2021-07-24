@@ -1,0 +1,48 @@
+.header-container{
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-box{
+    display: flex;
+    align-items: center;
+}
+
+.left-box > img{
+    height: 26px;
+    margin-left: 10px;
+}
+
+.left-box > h3{
+    margin-left: 10px;
+    color: rgb(114, 113, 113);
+}
+
+.middle-box > input{
+    outline: none;
+}
+
+.middle-box{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(243, 239, 239);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-box > input{
+    border: none;
+    width: 100%;
+    font-size: medium;
+    background-color: rgb(243, 239, 239);
+}
+
+.right-box{
+    display: flex;
+    align-items: center;
+}

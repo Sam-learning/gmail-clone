@@ -1,0 +1,29 @@
+.section{
+    display: flex;
+}
+
+.MailList-container{
+    width: 100%;
+}
+
+.section-element{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    min-width: 150px;
+}
+
+.section-element > span{
+    margin-left: 10px;
+}
+
+.MailList-top-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.eamilList{
+    display: flex;
+    flex-direction: column;
+}

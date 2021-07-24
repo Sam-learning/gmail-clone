@@ -1,0 +1,13 @@
+.sidebar-btn{
+    padding: 10px !important;
+    border-radius: 30px !important;
+    -webkit-box-shadow: 0px 5px 5px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0) !important; 
+    box-shadow: 0px 7px 8px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0) !important;
+    margin: 10px !important;
+}
+
+.element-contain{
+    min-width: 200px;
+}
+
+

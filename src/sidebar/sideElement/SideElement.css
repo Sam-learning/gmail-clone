@@ -1,0 +1,23 @@
+.SideElement-contain{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color:rgb(85, 84, 84);
+
+}
+
+.SideElement-title{
+    margin-left: 10px;
+    width: 100%;
+}
+
+.SideElement-number{
+    margin-right: 5px;
+}
+
+.SideElement-contain:hover
+{
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight: 700;
+}

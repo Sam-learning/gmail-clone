@@ -1,0 +1,41 @@
+.EmailRow-contain{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.outside{
+    width: 100%;
+}
+
+.outside:hover
+{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px;
+}
+
+.EmailRow-contain > p {
+    margin-left: 5px;
+}
+
+.EmailRow-contain > h4 {
+    margin-left: 5px;
+}
+
+.title{
+    padding-right: 20px;
+}
+
+.subject{
+    padding-left: 15px;
+}
+
+/* 讓超過的字變成... */
+.description{
+    width: 400px;
+    padding-left: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
